@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "better-erela.js-spotify": "^1.2.3",
+    "close-emit": "^1.0.2",
+    "discord.js": "^13.3.1",
+    "erela.js": "^2.3.3",
+    "erela.js-apple": "^1.2.6",
+    "erela.js-deezer": "^1.0.7",
+    "ms": "^2.1.2",
+    "pretty-ms": "^7.0.1"
+  },
+  "name": "discord-tunes",
+  "version": "3.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discord-player", "music-bot", "discord"],
+  "author": "luha (alibi)",
+  "license": "MIT",
+  "description": " A extensive module which simplified uses of erela.js as like using discord-player but more stable",
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  }
+}
