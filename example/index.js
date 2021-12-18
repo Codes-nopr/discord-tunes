@@ -2,7 +2,7 @@
 /* eslint-disable import/no-dynamic-require */
 const { Client, Intents, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
-const DiscordTunes = require("../index");
+const DiscordTunes = require("../index"); // If you're not using directly from source code, and using installed version, then use `require("discord-tunes")` instead
 
 const client = new Client({
     intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_VOICE_STATES],
