@@ -17,7 +17,7 @@ client.tunes = new DiscordTunes(client, {
     retryAmount: 5, // [Optional] How much times bot will be request to connect
     leaveOnEmpty: true, // [Optional] Check, does bot will leave on empty either will stay
     // eslint-disable-next-line max-len
-    isHttps: false, // [Optional] Is it secure connection? HTTP / FTP / IP = false, HTTPS / SFTP = true
+    isHttps: false, // [Optional] Is it secure connection? HTTP / IP = false, HTTPS = true
     spotifyClientID: "abcdef123456", // Put your spotify client OD
     spotifyClientSecret: "abcdef123456", // Put your spotify ckuebt secret
     leaveTimeout: 3000, // [Optional] When bot will leave from voice channel
