@@ -15,7 +15,7 @@ By default it will install all dependencies required by discord-tunes.
 - Performative
 
 # Links
-[Docs]()
+[Docs](https://github.com/dragonfirefox/discord-tunes/blob/main/docs/docs.md)
 
 [Support Server](https://discord.gg/3JCCHjv6ZK)
 
