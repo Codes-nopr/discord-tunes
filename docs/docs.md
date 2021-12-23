@@ -331,3 +331,23 @@ Some of other functions, for extensive work
  | Parameter        | Type      | Description             
  |------------------|-----------|-------------------------------------------------
  | `guildID`        | string    | In which guild bot will do the job
+
+# Events
+Events of discord-tunes
+
+### Node connection event
+ Event: `nodeStatus`    - Shows all node connection, disconnection, error and reconnect
+
+### Player events
+ Event: `playerStart`         - Fire up when player is being start to playing
+ Event: `playerEnd`           - Fire up when player is being stopped
+ Event: `playerError`         - Fire up when there's an error occurred while playing the track
+ Event: `playerUnknownError`  - Fire up when there's an internal error or stuck at playing
+ Event: `noResults`           - Fire up when lavalink will not found any results of your query
+ Event: `trackAdded`          - Fire up when a new track has been added to the queue
+ Event: `trackLoad`           - Fire up when track is been loaded and ready to play (requires for queued tracks)
+ Event: `searchAdded`         - Fire up when a new search has been added to the queue
+ Event: `searchResult`        - Fire up when search result is ready to play (requires for queued tracks)
+ Event: `playerStop`          - Fire up when stop function will be call to stop the track [DEPRECATED]
+ Event: `loadFailed`          - Fire up when something broke lavalink to load the track
+ Event: `logs`                - Shows debug logs
