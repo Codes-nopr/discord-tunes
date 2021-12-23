@@ -11,7 +11,7 @@ const client = new Client({
 client.tunes = new DiscordTunes(client, {
     host: "lava.link", // You lavalink host URL either IP
     port: 80, // Port of the network lavalink
-    botId: "910100532574699522",
+    botId: "your_bot_id",
     password: "youshallnotpass", // Connection auth password
     retryDelay: 3000, // [Optional] You can set delay of the retry to connect
     retryAmount: 5, // [Optional] How much times bot will be request to connect
@@ -57,4 +57,4 @@ for (const file of playerEvents) {
     client.tunes.on(file.split(".")[0], event.bind(null, client));
 }
 
-client.login("OTEwMTAwNTMyNTc0Njk5NTIy.YZN7Kw.pW5G4XagzRVV2y5URlrSkCstwg4");
+client.login("put_your_bot_token");
