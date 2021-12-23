@@ -9,18 +9,19 @@ const client = new Client({
 });
 
 client.tunes = new DiscordTunes(client, {
-    host: "localhost", // You lavalink host URL either IP
-    port: 2333, // Port of the network lavalink
-    botId: "put_your_bot_id",
+    host: "lava.link", // You lavalink host URL either IP
+    port: 80, // Port of the network lavalink
+    botId: "910100532574699522",
     password: "youshallnotpass", // Connection auth password
     retryDelay: 3000, // [Optional] You can set delay of the retry to connect
     retryAmount: 5, // [Optional] How much times bot will be request to connect
     leaveOnEmpty: true, // [Optional] Check, does bot will leave on empty either will stay
     // eslint-disable-next-line max-len
-    isHttps: false, // [Optional] Is it secure connection? HTTP / IP = false, HTTPS = true
+    isHttps: false, // [Optional] Is it secure connection? HTTP / FTP / IP = false, HTTPS / SFTP = true
     spotifyClientID: "abcdef123456", // Put your spotify client OD
     spotifyClientSecret: "abcdef123456", // Put your spotify ckuebt secret
-    leaveTimeout: 3000, // [Optional] When bot will leave from voice channel
+    leaveTimeout: 60000, // [Optional] When bot will leave from voice channel
+    DLib: "djs", // [Optional] Allow using different library Eris
 });
 
 client.commands = new Collection();
@@ -56,4 +57,4 @@ for (const file of playerEvents) {
     client.tunes.on(file.split(".")[0], event.bind(null, client));
 }
 
-client.login("secret_bot_token");
+client.login("OTEwMTAwNTMyNTc0Njk5NTIy.YZN7Kw.pW5G4XagzRVV2y5URlrSkCstwg4");
